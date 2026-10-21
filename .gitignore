@@ -1,0 +1,39 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# SQLite Database & Chat History
+chat_history.db
+chat_history.db-journal
+chat_history.db-wal
+chat_history.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB & Vector Stores
+chroma_db/
+chroma_data/
+test_chroma/
+documents_meta.json
+
+# Uploads & Temporary Documents
+uploads/
+*.pdf
+*.txt
+*.png
+
+# Environment variables & OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini
